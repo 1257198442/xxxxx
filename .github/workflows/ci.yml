@@ -19,7 +19,7 @@ jobs:
         run: >
           mvn -B verify -DskipTests sonar:sonar
           -Dsonar.projectKey=iwvg-devops-Shi-Jiaming
-          -Dsonar.organization=Shi-Jiaming
+          -Dsonar.organization=shi-jiaming
           -Dsonar.host.url=https://sonarcloud.io
           -Dsonar.login=$SONAR_TOKEN
         env:
